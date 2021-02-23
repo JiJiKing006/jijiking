@@ -1,0 +1,116 @@
+/* 头部样式 */
+.header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
+
+/* 注册主体样式 */
+
+.registerarea>.heart {
+    margin: 20px auto;
+    height: 500px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.regis_hd {
+    height: 50px;
+    padding: 0 10px;
+    line-height: 50px;
+    background-color: rgb(236, 236, 236);
+}
+
+.regis_hd>h2 {
+    font-weight: 400;
+}
+
+.regis_bd>form {
+    width: 550px;
+    margin: 50px auto;
+}
+
+.regis_bd>form>ul>li {
+    padding: 10px 0;
+}
+
+.regis_bd>form ul li:not(.agree) label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.regis_bd>form ul li:not(.agree) input {
+    width: 250px;
+    height: 35px;
+    text-align: left;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.error {
+    color: #c81623;
+}
+
+.error_ico,
+.sucess_ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.error_ico {
+    background-image: url(../img/error.png);
+}
+
+.sucess {
+    color: green;
+}
+
+.sucess_ico {
+    background-image: url(../img/success.png);
+}
+
+.regis_bd>form>label {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.safe {
+    margin-left: 160px;
+}
+
+.safe>em {
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: red;
+}
+
+.zho {
+    background-color: rgb(107, 107, 2);
+}
+
+.qiang {
+    background-color: #007b00;
+}
+
+
+.agree>input {
+    margin: -3px 5px 0px 100px;
+    vertical-align: middle;
+}
+
+.submit {
+    padding: 5px 50px;
+    margin: 20px 130px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}

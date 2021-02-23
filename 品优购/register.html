@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品优购-信息注册</title>
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 公共css -->
+    <link rel="stylesheet" href="css/register.css">
+    <!--注册css -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- css初始化 -->
+    <link rel="shortcut icon" href="./favicon.ico">
+    <!-- 网站icon图标 -->
+</head>
+
+<body>
+
+    <!-- 头部区域开始 -->
+    <header class="header">
+        <section class="heart">
+            <h1>
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </h1>
+        </section>
+    </header>
+    <!-- 头部区域结束 -->
+
+    <!-- 注册主体区域开始 -->
+    <section class="registerarea">
+        <section class="heart">
+            <section class="regis_hd">
+                <h2 class="fl">注册新用户</h2>
+                <span class="fr">我有账号，去<a href="./index.html" class="style_red">登陆</a></span>
+            </section>
+            <section class="regis_bd">
+                <form action="">
+                    <ul>
+                        <li>
+                            <label for="tel">手机号：</label><input type="tel" id="tel">
+                            <span class="error"><i class="error_ico"></i> 手机号码格式不正确，请重新输入</span>
+                        </li>
+                        <li>
+                            <label for="num">短信验证码：</label><input type="number" id="num">
+                            <span class="sucess"><i class="sucess_ico"></i> 短信验证码输入正确</span>
+                        </li>
+                        <li>
+                            <label for="pwd">登录密码：</label><input type="password" id="pwd">
+                            <span class="error"><i class="error_ico"></i>密码格式不正确，请重新输入</span>
+                        </li>
+                        <li class="safe">
+                            安全程度
+                            <em class="ruo">弱</em><em class="zho">中</em><em class="qiang">强</em>
+                        </li>
+                        <li>
+                            <label for="agapwd">确认密码：</label><input type="password" id="agapwd">
+                            <span class="error"><i class="error_ico"></i>两次密码不一致不，请重新输入</span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox" id="agree">
+                            <label for="agree">同意协议并注册</label>
+                            <span style="color: blue; cursor: pointer;">《知晓用户协议》</span>
+                        </li>
+                    </ul>
+                    <input type="submit" value="注册" class="submit">
+                </form>
+            </section>
+        </section>
+    </section>
+    <!-- 注册主体区域结束 -->
+
+    <!-- 尾部版权区域开始 -->
+    <div class="mod_copyright">
+        <div class="mod_copyright_links">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">营销中心</a></li>
+                <li><a href="#">手机品优购</a></li>
+                <li><a href="#">友情链接</a></li>
+                <li><a href="#">销售联盟</a></li>
+                <li><a href="#">品优购社区</a></li>
+                <li><a href="#">品优购公益</a></li>
+            </ul>
+        </div>
+        <div class="mod_copyright_copyright">
+            地址：江西省赣州市于都县银坑镇 邮编：342300 电话：400-618-4000 传真：010-82935100 邮箱: 635812238@qq.com <br>
+            京ICP备08001421号京公网安备110108007702
+        </div>
+    </div>
+    <!-- 尾部版权区域结束 -->
+</body>
+
+</html>

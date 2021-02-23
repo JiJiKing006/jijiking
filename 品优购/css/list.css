@@ -1,0 +1,107 @@
+/* 秒杀logo样式 */
+.sk {
+    position: absolute;
+    top: 30px;
+    left: 190px;
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+    border-left: 1px solid #c81623;
+}
+
+/* nav样式 */
+.nav>.heart li {
+
+    float: left;
+    line-height: 45px;
+    margin-right: 10px;
+}
+
+.sk_con {
+    margin-right: 50px;
+}
+
+.sk_con>ul>li:last-child>a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+/* 主体样式 */
+
+.sk_container {
+    margin-bottom: 30px;
+}
+
+.sk_bd>section:not(:nth-child(4n)) {
+    margin-right: 12px;
+}
+
+.sk_bd>section {
+    float: left;
+    width: 290px;
+    margin-top: 12px;
+    border: 1px solid #c81623;
+    transition: all 1s;
+}
+
+.sk_bd>section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}
+
+.sk_bd>section>img,
+h5,
+p {
+    margin-bottom: 5px;
+}
+
+.sk_bd>section>img {
+    width: 285px;
+}
+
+.sk_bd>section>p:first-of-type {
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+}
+
+.sk_bd>section>p:first-of-type>span {
+    font-size: 20px;
+}
+
+.sk_bd>section>p:first-of-type i {
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+/* 售卖剩余条 */
+.sk_bd>section>p:last-of-type>span>span {
+    color: #c81623;
+    font-size: 14px;
+}
+
+.sk_bd>section>p:last-of-type>i {
+    display: inline-block;
+    width: 135px;
+    height: 12px;
+    line-height: 10px;
+    border: 1px solid #c81623;
+    border-radius: 5px;
+}
+
+.sk_bd>section>p:last-of-type>i>i {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    background-color: #c81623;
+    border-radius: 5px 0 0 5px;
+}
+
+.sk_bd>section>h2 {
+    width: 290px;
+    height: 50px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    cursor: pointer;
+}
